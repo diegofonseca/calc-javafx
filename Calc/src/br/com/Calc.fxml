@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="313.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.CalcController">
+   <children>
+      <TextField fx:id="txtNumero1" layoutX="58.0" layoutY="53.0" />
+      <TextField fx:id="txtNumero2" layoutX="58.0" layoutY="110.0" />
+      <Button fx:id="btnSoma" layoutX="221.0" layoutY="135.0" mnemonicParsing="false" onAction="#soma" text="Soma" />
+      <Label layoutX="58.0" layoutY="36.0" text="Número 1" />
+      <Label layoutX="58.0" layoutY="92.0" text="Número 2" />
+      <Label fx:id="lbResultado" layoutX="58.0" layoutY="139.0" text="Resultado" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="329.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Octocat.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
